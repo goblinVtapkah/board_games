@@ -1,3 +1,3 @@
-* Board Games
+# Board Games
 
-** React + Node
+## React + Node
