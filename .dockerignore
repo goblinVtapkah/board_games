@@ -1,0 +1,53 @@
+# dependencies
+node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# build output
+dist
+build
+.out
+.next
+
+# local env files
+.env
+.env.*
+!.env.example
+
+# logs
+logs
+*.log
+
+# editor / OS files
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# git
+.git
+.gitignore
+
+# tests & coverage
+coverage
+*.test.*
+*.spec.*
+
+# cache
+.cache
+.eslintcache
+
+# tailwind cache (если есть)
+.tailwind
+
+# typescript
+*.tsbuildinfo
+
+# docker files themselves (опционально)
+Dockerfile*
+docker-compose*
+
+# misc
+*.md
