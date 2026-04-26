@@ -34,7 +34,7 @@ const BackgroundAnimation: FC<Props> = ({ children }) => {
 				runnerPixels.push([
 					runnerPixelX,
 					i,
-					runnerPixelX - 0 > sizes.width - runnerPixelX
+					Math.random() * 2 > 1,
 				])
 			}
 			runnerPixels.length = Math.floor(sizes.height / 5)
